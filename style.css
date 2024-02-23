@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(165, 130, 130, 0.299);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+.timerdisplay{
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: var(--clr);/* This is the variable which is applied all the buttons*/
+    padding: 12px 24px;
+    margin-inline: 12px; /*learn abt this*/
+    border-radius: 8px;
+    cursor: pointer;
+}
+#stopBtn{
+    box-shadow: 5px 5px 2px black;
+}
+#startBtn{
+    box-shadow: 5px 5px 2px black;
+}
+#resetBtn{
+    box-shadow: 5px 5px 2px black;
+}
+.title{
+    position: relative;
+    top: -50px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(2, 194, 237);
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
